@@ -116,6 +116,25 @@ namespace Koleksiyon
             Console.WriteLine("kucuk ortalama: "+kucukOrt/3);
             Console.WriteLine("toplam ortalama: "+toplamOrt);*/
 
+            //3.odev*************************************
+            /*
+            Console.Write("Bir cumle giriniz: ");
+            string cumle = Console.ReadLine();
+            ArrayList sesliHarfler= new ArrayList();
+            char[] harfler={'a','e','ı','i','o','ö','u','ü','A','E','I','İ','O','Ö','U','Ü'};
+            for (int i = 0; i < cumle.Length; i++)
+            {
+                for(int j=0; j<harfler.Length; j++)
+                {
+                    if(cumle[i]==harfler[j])
+                    {
+                        sesliHarfler.Add(cumle[i]);
+                        Console.WriteLine(cumle[i]);
+                        continue;
+                    }
+                }
+            }*/
+
         }
     }
 }
